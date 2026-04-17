@@ -2,6 +2,14 @@
 	"name": "threejs-project",
 	"version": "1.0.0",
 	"description": "",
+	"homepage": "https://github.com/hotlinenothing/hotlinenothing.github.io/tree/main#readme",
+	"bugs": {
+		"url": "https://github.com/hotlinenothing/hotlinenothing.github.io/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hotlinenothing/hotlinenothing.github.io.git#main"
+	},
 	"license": "Unlicense",
 	"author": "",
 	"type": "commonjs",
