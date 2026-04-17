@@ -97,7 +97,7 @@ loader.load('./models/phone.gltf', (gltf) => {
       });
     }
   });
-model.scale.set(0.06, 0.06, 0.06);
+model.scale.set(0.1, 0.1, 0.1);
   // center model
 const box = new THREE.Box3().setFromObject(model);
 const size = box.getSize(new THREE.Vector3()).length();
