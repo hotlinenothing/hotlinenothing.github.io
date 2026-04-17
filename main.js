@@ -97,7 +97,7 @@ loader.load('./models/phone.gltf', (gltf) => {
       });
     }
   });
-model.scale.set(0.45, 0.45, 0.45);
+model.scale.set(0.5, 0.5, 0.5);
   // center model
 const box = new THREE.Box3().setFromObject(model);
 const size = box.getSize(new THREE.Vector3()).length();
@@ -106,7 +106,7 @@ const center = box.getCenter(new THREE.Vector3());
 camera.position.set(0, 0, size * 1.5);
 camera.lookAt(center);
 
-  model.scale.set(0.01, 0.01, 0.01);
+
 
   // pivot setup
   pivot = new THREE.Group();
