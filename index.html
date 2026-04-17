@@ -3,12 +3,24 @@
 <head>
   <meta charset="utf-8" />
   <title>Three.js Viewer</title>
+  <link rel="stylesheet" href="css/style.css" />
+  	<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.183.2/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/"
+  }
+}
+</script>
   <style>
     body { margin: 0; overflow: hidden; }
     canvas { display: block; }
   </style>
 </head>
 <body>
+        <main>
+      <div id="container3D"></div>
+    </main>
   <script type="module" src="./main.js"></script>
 </body>
 </html>
