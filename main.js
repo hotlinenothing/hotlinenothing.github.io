@@ -8,7 +8,7 @@ import { RGBELoader } from 'three/addons/loaders/RGBELoader.js';
 const scene = new THREE.Scene();
 
 const camera = new THREE.PerspectiveCamera(
-  180,
+  75,
   window.innerWidth / window.innerHeight,
   0.1,
   1000
