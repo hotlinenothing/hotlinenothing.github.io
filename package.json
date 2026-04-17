@@ -1,0 +1,17 @@
+{
+	"name": "threejs-project",
+	"version": "1.0.0",
+	"description": "",
+	"license": "Unlicense",
+	"author": "",
+	"type": "commonjs",
+	"main": "main.js",
+	"scripts": {
+		"deploy": "gh-pages -d dist"
+	},
+	"dependencies": {
+		"gh-pages": "^6.3.0"
+	},
+	"devDependencies": {},
+	"respository": "#"
+}
