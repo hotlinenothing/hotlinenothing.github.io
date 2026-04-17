@@ -1,18 +1,7 @@
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  background-color: red;
-}
-
-header {
-  margin-top: 3em;
-  text-align: center;
-  color: white;
-}
-
-header h1 {
-  font-size: 2em;
-  font-weight: 900;
+  
 }
 
 #container3D canvas {
