@@ -106,7 +106,7 @@ const center = box.getCenter(new THREE.Vector3());
 camera.position.set(0, 0, size * 1.5);
 camera.lookAt(center);
 
-  model.scale.set(0.07, 0.07, 0.07);
+  model.scale.set(0.2, 0.2, 0.2);
 
   // pivot setup
   pivot = new THREE.Group();
